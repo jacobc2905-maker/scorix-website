@@ -1,0 +1,54 @@
+body{
+  background-color: lightblue;
+}
+
+/* Title box */
+h1{
+  color: darkorange;
+  font-family: Courier;
+  font-size: 48px;
+  background-color: #b3ecff;
+  padding: 10px;
+
+ 
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+
+ 
+  border-style: double;
+  border-width: 4px;
+  border-color: #005b96;
+}
+
+
+p, a{
+  color: #005b96;
+  font-family: Helvetica;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+a{
+  border-style: double;
+  border-width: 3px;
+  border-color: #005b96;
+  padding: 5px;
+  text-decoration: none;
+}
+
+
+p{
+  margin-bottom: 40px;
+}
+
+
+img{
+  border-style: dotted;
+  border-width: 10px;
+  border-color: #b3ecff;
+
+  display: block;
+  margin: auto;
+}
