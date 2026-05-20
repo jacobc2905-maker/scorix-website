@@ -15,7 +15,7 @@ body {
 }
 
 .hero h1 {
-    font-size: 50px;
+    font-size: 48px;
     margin-bottom: 10px;
     color: #062d4f;
 }
@@ -26,10 +26,9 @@ body {
 }
 
 .content-card {
-    background-color: rgba(255,255,255,0.2);
+    background-color: rgba(255,255,255,0.25);
     padding: 30px;
-    border-radius: 20px;
-    backdrop-filter: blur(4px);
+    border-radius: 18px;
 }
 
 .main-image {
@@ -41,53 +40,77 @@ body {
 
 .intro,
 .description {
-    font-size: 22px;
-    line-height: 1.6;
+    font-size: 21px;
+    line-height: 1.5;
     margin-bottom: 25px;
 }
 
 .animation-section {
-    margin-top: 50px;
+    margin-top: 45px;
 }
 
 .animation-section h2 {
-    font-size: 38px;
+    font-size: 32px;
     margin-bottom: 15px;
+    color: #062d4f;
 }
 
 .animation-section p {
-    font-size: 20px;
-    margin-bottom: 30px;
+    font-size: 19px;
+    margin-bottom: 25px;
 }
 
 iframe {
     width: 80%;
     max-width: 700px;
     height: 400px;
-    border-radius: 20px;
+    border-radius: 15px;
     border: none;
-    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
 .nav-links {
-    margin-top: 50px;
+    margin-top: 45px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 15px;
 }
 
 .nav-links a {
     text-decoration: none;
     background-color: #0d4f84;
     color: white;
-    padding: 14px 24px;
-    border-radius: 12px;
-    transition: 0.3s ease;
+    padding: 12px 20px;
+    border-radius: 10px;
     font-size: 18px;
 }
 
 .nav-links a:hover {
     background-color: #062d4f;
-    transform: scale(1.05);
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.artifact {
+    background-color: rgba(255,255,255,0.3);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.artifact img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.artifact p {
+    font-size: 16px;
+    line-height: 1.4;
 }
