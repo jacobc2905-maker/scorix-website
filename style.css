@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #b9ddeb;
+    background: linear-gradient(to bottom, #8fd3e8, #c7ecf4);
     font-family: Arial, sans-serif;
     color: #083b66;
 }
@@ -15,27 +15,33 @@ body {
 }
 
 .hero h1 {
-    font-size: 48px;
+    font-size: 56px;
     margin-bottom: 10px;
-    color: #062d4f;
+    color: #0a4f8f;
+    letter-spacing: 2px;
+    text-shadow: 0px 2px 8px rgba(255,255,255,0.5);
 }
 
 .tagline {
-    font-size: 20px;
+    font-size: 21px;
     margin-bottom: 30px;
+    color: #07598f;
 }
 
 .content-card {
-    background-color: rgba(255,255,255,0.25);
+    background-color: rgba(255,255,255,0.18);
     padding: 30px;
-    border-radius: 18px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.12);
+    margin-top: 30px;
 }
 
 .main-image {
     width: 70%;
     max-width: 600px;
-    border-radius: 15px;
+    border-radius: 18px;
     margin: 25px 0;
+    box-shadow: 0 0 20px rgba(0,0,0,0.18);
 }
 
 .intro,
@@ -47,10 +53,11 @@ body {
 
 .animation-section {
     margin-top: 45px;
+    padding-top: 20px;
 }
 
 .animation-section h2 {
-    font-size: 32px;
+    font-size: 34px;
     margin-bottom: 15px;
     color: #062d4f;
 }
@@ -64,9 +71,9 @@ iframe {
     width: 80%;
     max-width: 700px;
     height: 400px;
-    border-radius: 15px;
+    border-radius: 18px;
     border: none;
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    box-shadow: 0 0 18px rgba(0,0,0,0.22);
 }
 
 .nav-links {
@@ -87,7 +94,7 @@ iframe {
 }
 
 .nav-links a:hover {
-    background-color: #062d4f;
+    background-color: #06375f;
 }
 
 .gallery-grid {
@@ -101,6 +108,7 @@ iframe {
     background-color: rgba(255,255,255,0.3);
     padding: 15px;
     border-radius: 15px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
 }
 
 .artifact img {
